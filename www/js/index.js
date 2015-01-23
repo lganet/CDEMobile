@@ -47,7 +47,7 @@ var app = {
         console.log('Received Event: ' + id);
     },
 
-    /*scan: function() {
+    scan: function() {
         console.log('scanning');
         
         try{
@@ -70,7 +70,7 @@ var app = {
                 if (args.format == "QR_CODE") {
                     window.plugins.childBrowser.showWebPage(args.text, { showLocationBar: false });
                 }
-                *-/
+                */
 
             }, function (error) { 
                 console.log("Scanning failed: ", error); 
@@ -91,7 +91,7 @@ var app = {
           }
         );
 
-    },*/
+    },
     takePicture: function(){
         navigator.camera.getPicture( function(imageData){
             var image = document.getElementById('picTeste');
