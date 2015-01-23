@@ -113,3 +113,19 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  .font-size(1.4);
+}
+
+.wrapper {
+  .font-size(1.4);
+}
+
+h1 {
+  .font-size(2.6);
+}
